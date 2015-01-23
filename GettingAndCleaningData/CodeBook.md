@@ -13,7 +13,7 @@ This document describes the variables, original data, and transformations made t
 the original data to create the final variable output.
 
 ## 2. Variables
-* IN GITHUB, READ THIS USING "RAW" VIEW!
+IN GITHUB, READ THIS USING "RAW" VIEW!
 Subject
 	Identifier for the person (subject) who performed the activity to be monitored.
 	Data from 30 subjects were collected.
@@ -264,6 +264,10 @@ GyroBodyJerkMag-FFT-MeanFreq
 	Mean frequency of gyroscope measures from body derived as jerk signal and calculated as magnitude of 3-dimensional signals using Euclidean norm with Fast Fourier Transform applied    
 		Value Range: [-1,1]
 
+## 3. Original Data 
+The data comes from the accelerometer and gyroscope 3-axial raw signals. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
+
+## 4. Transformations
 
 ### Variable Renaming
 Variables were renamed from the original source data for better usability 
@@ -271,11 +275,3 @@ and understandability.
 
 Refer to the colNames.csv file for a mapping of the original variable names
 to the new names. 
-
-
-## 3. Original Data 
-
-
-
-
-## 4. Transformations
