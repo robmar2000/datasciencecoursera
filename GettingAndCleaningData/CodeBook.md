@@ -13,6 +13,7 @@ This document describes the variables, original data, and transformations made t
 the original data to create the final variable output.
 
 ## 2. Variables
+* IN GITHUB, READ THIS USING "RAW" VIEW!
 Subject
 	Identifier for the person (subject) who performed the activity to be monitored.
 	Data from 30 subjects were collected.
